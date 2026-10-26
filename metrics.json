@@ -1,0 +1,70 @@
+{
+ "results": {
+  "history_weeks": 105,
+  "customers_full_history": 5350,
+  "repeat_customers": 3804,
+  "repeat_rate": 0.711,
+  "avg_order_value_gbp": 434.6,
+  "bg_params": {
+   "r": 0.7058,
+   "alpha": 10.3155,
+   "a": 0.1085,
+   "b": 2.8219
+  },
+  "holdout_weeks": 8,
+  "holdout_predicted_purchases": 2198.2,
+  "holdout_actual_purchases": 3586,
+  "holdout_calibration_ratio": 0.613,
+  "holdout_rank_correlation": 0.65,
+  "prob_alive_mean": 0.8904,
+  "horizon_weeks": 26,
+  "weekly_discount_rate": 0.01,
+  "clv_mean_gbp": 3767.6,
+  "clv_median_gbp": 1519.38,
+  "clv_p90_gbp": 6827.19,
+  "top_decile_clv_share": 0.561
+ },
+ "table": {
+  "title": "26-week CLV across repeat buyers (GBP)",
+  "headers": [
+   "quantile",
+   "CLV"
+  ],
+  "rows": [
+   [
+    "p10",
+    319.76
+   ],
+   [
+    "p25",
+    665.29
+   ],
+   [
+    "p50",
+    1519.38
+   ],
+   [
+    "p75",
+    3425.62
+   ],
+   [
+    "p90",
+    6827.19
+   ],
+   [
+    "p95",
+    10482.13
+   ],
+   [
+    "p99",
+    32016.08
+   ]
+  ]
+ },
+ "figures": [
+  [
+   "clv.png",
+   "The honest out-of-time check, then value concentration"
+  ]
+ ]
+}
